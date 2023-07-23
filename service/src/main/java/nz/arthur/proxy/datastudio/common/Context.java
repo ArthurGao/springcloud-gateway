@@ -1,4 +1,4 @@
-package nz.paymark.proxy.datastudio.common;
+package nz.arthur.proxy.datastudio.common;
 
 import java.util.concurrent.ConcurrentHashMap;
 

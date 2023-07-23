@@ -1,12 +1,13 @@
-package nz.paymark.proxy.datastudio.steps.presteps;
+package nz.arthur.proxy.datastudio.steps.presteps;
 
-import nz.paymark.proxy.datastudio.common.Context;
-import nz.paymark.proxy.datastudio.steps.common.FilterBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
+
+import nz.arthur.proxy.datastudio.common.Context;
+import nz.arthur.proxy.datastudio.steps.common.FilterBase;
 import reactor.core.publisher.Mono;
 
 import java.util.UUID;
@@ -21,7 +22,7 @@ public class SetContext extends FilterBase {
         logger.info("SetContext");
         Context context = Context.getInstance();
 
-        String proxyPathSuffix = "/qaproxies.dev.paymark.nz";
+        String proxyPathSuffix = "/qaproxies.dev.arthur.nz";
         String verb = "GET";
         String flow = "New product registration flow";
         String timestamp = String.valueOf(System.currentTimeMillis());

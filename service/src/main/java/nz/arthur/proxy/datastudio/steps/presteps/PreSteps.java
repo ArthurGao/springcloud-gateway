@@ -1,12 +1,13 @@
-package nz.paymark.proxy.datastudio.steps.presteps;
+package nz.arthur.proxy.datastudio.steps.presteps;
 
-import nz.paymark.proxy.datastudio.steps.*;
-import nz.paymark.proxy.datastudio.steps.common.FilterBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.stereotype.Component;
+
+import nz.arthur.proxy.datastudio.steps.*;
+import nz.arthur.proxy.datastudio.steps.common.FilterBase;
 
 import java.util.ArrayList;
 import java.util.HashMap;

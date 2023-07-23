@@ -4,7 +4,7 @@ spring:
       routes:
 
       - id: productregistration_passthrough
-        uri: https://api.cte.noncde.paymark.io/productregistration
+        uri: https://api.cte.noncde.arthur.io/productregistration
         predicates:
           - Path=/productregistration_passthrough/**
         filters:

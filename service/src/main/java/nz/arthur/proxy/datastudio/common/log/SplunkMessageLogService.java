@@ -1,8 +1,9 @@
-package nz.paymark.proxy.datastudio.common.log;
-import nz.paymark.proxy.datastudio.common.Context;
-
+package nz.arthur.proxy.datastudio.common.log;
 import java.util.Date;
 import com.google.gson.Gson;
+
+import nz.arthur.proxy.datastudio.common.Context;
+
 import org.springframework.stereotype.Service;
 
 @Service

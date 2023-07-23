@@ -1,4 +1,4 @@
-package nz.paymark.proxy.datastudio.common.log;
+package nz.arthur.proxy.datastudio.common.log;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

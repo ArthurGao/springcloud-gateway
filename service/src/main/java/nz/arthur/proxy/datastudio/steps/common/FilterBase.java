@@ -1,4 +1,4 @@
-package nz.paymark.proxy.datastudio.steps.common;
+package nz.arthur.proxy.datastudio.steps.common;
 
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;

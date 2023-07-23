@@ -1,4 +1,4 @@
-package nz.paymark.proxy.datastudio.config;
+package nz.arthur.proxy.datastudio.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
