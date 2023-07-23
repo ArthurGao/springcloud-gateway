@@ -1,0 +1,16 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+repositories {
+    maven {
+        url "${artifactoryBaseUrl}java-all/"
+        credentials {
+            username = "${credentialsArtifactoryIdentity}"
+            password = "${credentialsArtifactoryPassword}"
+        }
+    }
+}
+dependencies {
+    implementation 'io.spring.gradle:dependency-management-plugin:1.0.15.RELEASE'
+    implementation 'org.barfuin.gradle.jacocolog:gradle-jacoco-log:3.1.0'
+}

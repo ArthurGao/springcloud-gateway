@@ -1,0 +1,4 @@
+rootProject.name = 'ds-support'
+
+
+include 'service'
